@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 
 app.use('/coverage', cov.createHandler()); // mount istanbul middleware here
 
-app.listen(6969);
+app.listen(6800);
 
 
 // that's all folks, lol
